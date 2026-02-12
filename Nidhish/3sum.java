@@ -19,16 +19,6 @@ class Solution {
     return new ArrayList<>(set);
 }
 
-[-1,0,1,2,-1,-4] 
-
-arr[k] = -(arr[i]+arr[j])
-i = 0
-j = -1
-HashMap = [0,1,2] 
-set = [[-1,0,1],[-1,-1,2]]
-2*o(n2) + o(n)
-
-
 //optimal 
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
